@@ -1,0 +1,358 @@
+portfolio/
+│
+├── index.html
+├── styles/
+│   └── styles.css
+└── scripts/
+    └── scripts.js
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Meu Portfólio</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#about">Sobre Mim</a></li>
+                <li><a href="#projects">Projetos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Bem-vindo!</h2>
+            <p>Este é o meu portfólio pessoal. Aqui você pode conhecer mais sobre mim e ver meus projetos.</p>
+        </section>
+        <section id="about">
+            <h2>Sobre Mim</h2>
+            <p>Eu sou uma desenvolvedora web apaixonada por criar sites e aplicativos modernos e funcionais.</p>
+        </section>
+        <section id="projects">
+            <h2>Projetos</h2>
+            <div class="project">
+                <h3>Projeto 1</h3>
+                <p>Este Website</p>
+            </div>
+            <div class="project">
+                <h3>Projeto 2</h3>
+                <p>Descrição do Projeto 2.</p>
+            </div>
+        </section>
+    </main>
+    <script src="scripts/scripts.js"></script>
+</body>
+</html>
+/* Estilos Básicos */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 2em;
+}
+
+.project {
+    background-color: white;
+    margin: 1em 0;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+// Exemplo de JavaScript básico
+document.addEventListener('DOMContentLoaded', function() {
+    console.log('Document is ready!');
+});
+/* Importar uma fonte do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Estilos Básicos */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #4CAF50;
+}
+
+main {
+    max-width: 1000px;
+    margin: 2em auto;
+    padding: 0 1em;
+}
+
+section {
+    padding: 2em 0;
+}
+
+section#home {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 4em 0;
+}
+
+.project {
+    background-color: white;
+    margin: 1em 0;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Layout Responsivo */
+@media (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    main {
+        padding: 0 1em;
+    }
+
+    section#home {
+        padding: 2em 0;
+    }
+}
+/* Importar uma fonte do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Estilos Básicos */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #4CAF50;
+}
+
+main {
+    max-width: 1000px;
+    margin: 2em auto;
+    padding: 0 1em;
+}
+
+section {
+    padding: 2em 0;
+}
+
+section#home {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 4em 0;
+}
+
+.project {
+    background-color: white;
+    margin: 1em 0;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Layout Responsivo */
+@media (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    main {
+        padding: 0 1em;
+    }
+
+    section#home {
+        padding: 2em 0;
+    }
+
+}
+/* Importar uma fonte do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Estilos Básicos */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #4CAF50;
+}
+
+main {
+    max-width: 1000px;
+    margin: 2em auto;
+    padding: 0 1em;
+}
+
+section {
+    padding: 2em 0;
+}
+
+section#home {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 4em 0;
+}
+
+.project {
+    background-color: white;
+    margin: 1em 0;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Layout Responsivo */
+@media (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    main {
+        padding: 0 1em;
+    }
+
+    section#home {
+        padding: 2em 0;
+    }
+}
+
+
+
